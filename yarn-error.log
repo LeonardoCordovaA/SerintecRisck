@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add --dev
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/leonardo/Music/SerintecRisk/package.json: Unexpected token } in JSON at position 886
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "^5.11.9",
+      "@react-navigation/drawer": "^5.12.5",
+      "@react-navigation/native": "^5.9.4",
+      "@react-navigation/stack": "^5.14.4",
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-elements": "^3.3.2",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-odoo-promise-based": "^0.6.8",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-safe-area-context": "3.1.9",
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
